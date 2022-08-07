@@ -14,6 +14,7 @@
 		F58FEF89289C62390085883D /* SwiftUIAPICallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FEF88289C62390085883D /* SwiftUIAPICallsTests.swift */; };
 		F58FEF93289C62390085883D /* SwiftUIAPICallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FEF92289C62390085883D /* SwiftUIAPICallsUITests.swift */; };
 		F58FEF95289C62390085883D /* SwiftUIAPICallsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FEF94289C62390085883D /* SwiftUIAPICallsUITestsLaunchTests.swift */; };
+		F596F4A328A0353A007FFDD0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596F4A228A0353A007FFDD0 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F58FEF8E289C62390085883D /* SwiftUIAPICallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAPICallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58FEF92289C62390085883D /* SwiftUIAPICallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAPICallsUITests.swift; sourceTree = "<group>"; };
 		F58FEF94289C62390085883D /* SwiftUIAPICallsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAPICallsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F596F4A228A0353A007FFDD0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F58FEF79289C62360085883D /* ContentView.swift */,
 				F58FEF7B289C62390085883D /* Assets.xcassets */,
 				F58FEF7D289C62390085883D /* Preview Content */,
+				F596F4A228A0353A007FFDD0 /* ViewModel.swift */,
 			);
 			path = SwiftUIAPICalls;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58FEF7A289C62360085883D /* ContentView.swift in Sources */,
+				F596F4A328A0353A007FFDD0 /* ViewModel.swift in Sources */,
 				F58FEF78289C62360085883D /* SwiftUIAPICallsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAPICalls/Preview Content\"";
-				DEVELOPMENT_TEAM = D963K3K43B;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pyronix.SwiftUIAPICalls;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyronix.SwiftUIAPIHeeder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAPICalls/Preview Content\"";
-				DEVELOPMENT_TEAM = D963K3K43B;
+				DEVELOPMENT_TEAM = 6793T2GZPD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pyronix.SwiftUIAPICalls;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyronix.SwiftUIAPIHeeder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
